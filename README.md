@@ -11,8 +11,10 @@ If you only want to compile one of the versions, type 'make kmeanspp' for the st
 --- PARAMETERS ---
 
 -input [file]: Path to the source .csv file, where each row represents a point. [MANDATORY]
+
 -n_clusters [int]: Desired number of clusters (k). Default: 4096.
--seed [int]: Seed value for random number generation (s). Default: 0.
+
+seed [int]: Seed value for random number generation (s). Default: 0.
 
 
 --- OUTPUT ---
