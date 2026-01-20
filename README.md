@@ -63,9 +63,11 @@ The tests/ folder contains golden-output regression tests to ensure stable behav
 From the tests/ directory:
 
 make update
+
 This regenerates golden outputs. Use this only when you intentionally change the expected results and want to update the reference outputs.
 
 make test
+
 This runs the regression test executable and checks outputs against the committed golden references.
 
 ## Reproducibility
@@ -78,9 +80,7 @@ Code Ocean capsule: https://codeocean.com/capsule/4860715/tree/v1
 
 If you use this software, please cite the associated publications:
 
-Rodríguez-Corominas, Blesa, Blum (2025). Accelerating the k-Means++ Algorithm by Using Geometric Information. IEEE Access.
-
-Guillem Rodríguez-Corominas, Maria J. Blesa, Christian Blum. Accelerating the k-Means++ Algorithm by Using Geometric Information. IEEE Access, volume 13, pages 67693-67717. April 2025. doi.org/10.1109/ACCESS.2025.3561293.
+Guillem Rodríguez-Corominas, Maria J. Blesa, Christian Blum. Accelerating the k-Means++ Algorithm by Using Geometric Information. IEEE Access, volume 13, pages 67693-67717. April 2025. https://doi.org/10.1109/ACCESS.2025.3561293.
 
 Guillem Rodríguez Corominas, Maria J.~Blesa, Christian Blum. Tight bounds for an accelerated  k-means++ algorithm. Proceedings of the International Conference on Artificial Intelligence Applications and Innovations (AIAI 2025), Cyprus. https://doi.org/10.1007/978-3-031-96239-4_8. 
 
